@@ -2,3 +2,42 @@
   max-width: 100%;
   margin: 0;
 }
+
+
+
+.form{
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 2rem;
+}
+
+
+.slider{
+  margin: auto;
+}
+
+.slider .slider-track{
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 10);
+}
+
+.slider .slide{
+  width: 200px;
+}
+
+.slider .slide img{
+  width: 100%;
+  border-radius: 6px;
+} 
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0)
+    }
+    100% {
+      transform: translateX(calc(-200px * 5))
+    }
+}
+
+
