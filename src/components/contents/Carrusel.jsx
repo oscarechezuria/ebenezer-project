@@ -3,7 +3,7 @@ export default function Carrusel() {
   return (
     <div className="flex flex-col w-full justify-center">
             <div className="text-center w-full p-6 bg-one text-2xl">
-                <h2>Unete a las más de xx personas que ya disfrutan de su moto</h2>
+                <h2 className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-two via-white to-white lg:text-4xl lg:h-16">Unete a las más de xx personas que ya disfrutan de su moto</h2>
             </div>
             <div className="slider flex bg-one">
                 <div className="slider-track flex gap-1 items-end">
