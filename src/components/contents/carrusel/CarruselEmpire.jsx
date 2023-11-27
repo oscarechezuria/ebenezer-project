@@ -20,7 +20,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function CarruselEmpire() {
     return (
     <>
-        <div className="mb-8">
+        <div className="flex justify-center mt-12 mb-8 border-t border-yellow-500 p-10 w-full">
             <img className="w-80 h-28 " src="https://seeklogo.com/images/E/ek-express-logo-7169295133-seeklogo.com.png" alt="" />
         </div>
             <Swiper
@@ -32,7 +32,7 @@ export default function CarruselEmpire() {
                     }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper w-full md:w-2/3"
+                    className="mySwiper w-full md:w-2/3 mb-12"
             >
                 <SwiperSlide>
                         <section>

@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function CarruselEscuda() {
   return (
     <>
-        <div>
+        <div className="flex justify-center mt-14 mb-8 border-t border-yellow-500 p-10 w-full">
             <img className="w-96 h-60 " src={escudaLogo} alt="" />
         </div>
             <Swiper
@@ -29,7 +29,7 @@ export default function CarruselEscuda() {
                     }}
                     navigation={true}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper w-full md:w-2/3"
+                    className="mySwiper w-full md:w-2/3 mb-12"
             >
                 <SwiperSlide>
                         <section>
