@@ -1,7 +1,7 @@
 
 export default function Testimonios() {
     return (
-        <div className="bg-one h-102">
+        <div className="bg-white h-102">
 
         </div>
 )

@@ -1,7 +1,7 @@
-import CarruselBera from "./CarruselBera";
-import CarruselEmpire from "./CarruselEmpire";
-import CarruselEscuda from "./CarruselEscuda";
-import CarruselToro from "./CarruselToro";
+import CarruselBera from "./carrusel/CarruselBera";
+import CarruselEmpire from "./carrusel/CarruselEmpire";
+import CarruselEscuda from "./carrusel/CarruselEscuda";
+import CarruselToro from "./carrusel/CarruselToro";
 
 export default function Carrusel() {
   return (

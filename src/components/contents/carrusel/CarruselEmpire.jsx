@@ -20,7 +20,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function CarruselEmpire() {
     return (
     <>
-        <div className="flex justify-center mt-12 mb-8 border-t border-yellow-500 p-10 w-full">
+        <div className="flex justify-center mt-12 mb-10 border-t border-yellow-500 p-10 w-full">
             <img className="w-80 h-28 " src="https://seeklogo.com/images/E/ek-express-logo-7169295133-seeklogo.com.png" alt="" />
         </div>
             <Swiper

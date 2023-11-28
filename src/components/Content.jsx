@@ -1,6 +1,6 @@
 import AboutUs from "./contents/AboutUs";
-import CarruselWrapper from "./contents/carrusel/CarruselWrapper"
-import Form from "./contents/Form";
+import CarruselWrapper from "./contents/CarruselWrapper"
+import FormWrapper from "./contents/FormWrapper";
 import Testimonios from "./contents/Testimonios";
 
 
@@ -9,7 +9,7 @@ export default function Content() {
         <div>
             <AboutUs/>
             <CarruselWrapper/>
-            <Form/>
+            <FormWrapper/>
             <Testimonios/>
         </div>
 )

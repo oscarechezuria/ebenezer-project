@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function CarruselBera() {
   return (
     <>
-        <div className="mb-8">
+        <div className="flex justify-center mb-10 p-10 w-full">
             <img className="w-80 h-36 " src="https://beravirtual.com/wp-content/uploads/2021/10/Logo-Bera-770x352-1.png" alt="" />
         </div>
         <Swiper
