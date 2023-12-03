@@ -35,7 +35,7 @@ export default function StepThree({stepForm, setStepForm}) {
                         <label className="text-black">Cédula de Identidad</label>
                         <input type="text" className="border border-one rounded-sm focus:outline-none mt-2 " />
                     </div>
-                    <div className="flex flex-col  mb-2">
+                    <div className="flex flex-col mb-2">
                         <label className="text-black">Teléfono de Contacto</label>
                         <input type="text" className="border border-one rounded-sm focus:outline-none mt-2 " />
                     </div>

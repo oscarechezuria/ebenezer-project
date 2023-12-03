@@ -6,7 +6,6 @@ export default function StepOne({stepForm, setStepForm}) {
    const buttonStep = (e) => {
     e.preventDefault()
     setStepForm(stepForm + 1)
-
    } 
 
   return (
