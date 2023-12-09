@@ -31,27 +31,20 @@
 }
 
 
-
-
-
 .slider{
-  margin: auto;
+  height: auto;
+
 }
 
 .slider .slider-track{
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(200px * 10);
+  animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
 }
 
 .slider .slide{
-  width: 200px;
+  width: 100%;
 }
 
-.slider .slide img{
-  width: 100%;
-  border-radius: 6px;
-} 
 
 
 @keyframes scroll {
@@ -59,8 +52,7 @@
       transform: translateX(0)
     }
     100% {
-      transform: translateX(calc(-200px * 5))
+      transform: translateX(calc(-200px))
     }
 }
-
 
