@@ -21,6 +21,9 @@ export default {
         104: "540px",
         106: "580px",
       },
+      fontWeight: {
+        "extra-bold": "1000",
+      },
     },
   },
   plugins: [],

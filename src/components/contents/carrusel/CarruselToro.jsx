@@ -1,7 +1,7 @@
 import toro1 from "../../../assets/toro/toro1.png"
 import toro2 from "../../../assets/toro/toro1.png"
 import toro3 from "../../../assets/toro/toro1.png"
-import toroLogo from "../../../assets/toro/toroLogo.PNG"
+import toroLogoo from "../../../assets/toro/toroLogoo.PNG"
 
 
 // Import Swiper React components
@@ -16,8 +16,10 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function CarruselToro() {
   return (
     <>
-        <div className="flex justify-center mt-12 mb-10 border-t border-yellow-500 p-10 w-full">
-            <img className="w-96 h-60 " src={toroLogo} alt="" />
+            <div className="flex justify-center mt-14 border-t border-yellow-500 w-full">
+            <div className="w-96 h-56 mt-12 lg:w-96 lg:h-60">
+                <img className="m-auto" src={toroLogoo} alt="" />
+            </div>
         </div>
             <Swiper
                     spaceBetween={30}
