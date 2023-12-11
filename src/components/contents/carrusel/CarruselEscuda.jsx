@@ -1,7 +1,7 @@
 import escuda1 from "../../../assets/escuda/escuda1.png"
 import escuda2 from "../../../assets/escuda/escuda2.png"
 import escuda3 from "../../../assets/escuda/escuda3.png"
-import escudaLogo from "../../../assets/escuda/escudaLogo.PNG"
+import escudaLogoo from "../../../assets/escuda/escudaLogo.PNG"
 
 
 // Import Swiper React components
@@ -19,7 +19,7 @@ export default function CarruselEscuda() {
     <>
         <div className="flex justify-center mt-14 border-t border-yellow-500 w-full">
             <div className="w-96 h-56 mt-12 lg:w-96 lg:h-60">
-                <img className="m-auto" src={escudaLogo} alt="" />
+                <img className="m-auto" src={escudaLogoo} alt="" />
             </div>
         </div>
             <Swiper

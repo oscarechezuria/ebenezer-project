@@ -17,7 +17,7 @@ export default function Header() {
                 <h3 className="text-xl lg:text-2xl">Elije la opción que más</h3>
                 <h3 className="text-xl lg:text-2xl">se ajuste a tu presupuesto</h3>
                 <h2 className="text-2xl lg:text-4xl font-extra-bold text-yellow-300">Cuotas desde 35$ o 40$</h2>
-                <div className="mt-4 mb-16">
+                <div className="mt-4 mb-20">
                   <a href="#form" className="flex gap-2 w-48 justify-center items-center text-black font-extrabold text-2xl px-8 py-3 bg-yellow-400 rounded-lg lg:text-3xl lg:w-auto lg:py-4">Si! quiero</a>
                 </div>
               </div>
