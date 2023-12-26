@@ -30,7 +30,7 @@ export default function FormWrapper() {
   return (
     <div className="form flex flex-col justify-center bg-one items-center py-6" id="form">
           <div className="flex flex-col justify-center items-center mb-6 text-4xl mt-24 text-white">
-            <h2 className="flex text-3xl lg:text-4xl text-center mb-6 font-bold text-yellow-500">¿Quieres tu moto?</h2>
+            <h2 className="flex text-3xl md:text-4xl text-center mb-6 font-bold text-yellow-500">¿Quieres tu moto?</h2>
             <h2 className="flex text-2xl justify-center items-center">Sigue los pasos <span className="flex justify-center m-auto items-end ml-4 text-yellow-500 text-4xl"><PiMotorcycleFill/></span></h2>
           </div>
           <div className="flex gap-8 text-2xl mt-6 lg:text-4xl">

@@ -1,5 +1,4 @@
 import AboutUs from "./contents/AboutUs";
-import Carrusel from "./contents/carrusel";
 import CarruselWrapper from "./contents/CarruselWrapper"
 import Footer from "./contents/Footer";
 import FormWrapper from "./contents/FormWrapper";
@@ -11,7 +10,6 @@ export default function Content() {
     return (
         <div className="relative">
             <AboutUs/>
-            <Carrusel/>
             <CarruselWrapper/>
             <FormWrapper/>
             <Testimonios/>

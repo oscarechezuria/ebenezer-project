@@ -4,7 +4,8 @@
 }
 
 
-/*This is the componentens header*/
+/*Este es el componente header*/
+
 .wave-container {  
   height: 40vh;
   background-color: #053260;
@@ -28,32 +29,6 @@
   .wave-container::before {    
     height: 27.5px
   }  
-}
-
-
-.slider{
-  height: auto;
-
-}
-
-.slider .slider-track{
-  animation: scroll 30s linear infinite;
-  -webkit-animation: scroll 30s linear infinite;
-}
-
-.slider .slide{
-  width: 100%;
-}
-
-
-
-@keyframes scroll {
-    0% {
-      transform: translateX(0)
-    }
-    100% {
-      transform: translateX(calc(-200px))
-    }
 }
 
 
@@ -94,9 +69,11 @@
   background: linear-gradient(to right, rgba(255,255,255,0), white);
 }
 
+/*
 .logos:hover .logos-slide{
   animation-play-state: paused;
 }
+*/
 
 .logos-slide{
   display: inline-block;

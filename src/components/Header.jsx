@@ -10,7 +10,7 @@ export default function Header() {
           </div>
           <div>
             <div className="wave-container flex flex-col w-full h-auto p-4 lg:px-8 lg:h-106">
-              <div className="flex flex-col gap-3 w-full mt-10 text-center items-center text-white">
+              <div className="flex flex-col gap-2 w-full mt-10 text-center items-center text-white">
                 <h2 className="text-2xl lg:text-4xl">Obtén con nosotros tú nueva moto nueva</h2>
                 <h2 className="text-4xl lg:text-6xl text-yellow-300 font-extrabold">MOTO 0KM</h2>
                 <h2 className="text-2xl lg:text-4xl font-extra-bold">¡Esta es tu Oportunidad!</h2>

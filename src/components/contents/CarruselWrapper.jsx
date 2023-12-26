@@ -7,7 +7,7 @@ export default function Carrusel() {
   return (
     <>
       <div className="flex justify-center items-center text-center">
-        <h2 className="text-one my-8 text-3xl font-extra-bold text-center">Nuestros Modelos</h2>
+        <h2 className="text-one my-8 text-3xl font-extra-bold text-center md:text-4xl">Nuestros Modelos</h2>
       </div>
       <div className="flex flex-col justify-center items-center">
           <CarruselBera/>
